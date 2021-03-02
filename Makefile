@@ -8,7 +8,7 @@ install-dev:
 	pip install -e ".[dev]"
 
 unit: 
-	pytest tests/
+	pytest -vv tests/
 
 lint:
 	black main.py tests/
