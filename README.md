@@ -1,5 +1,19 @@
 # WEB-CRAWLER
 
+## Development
+The development dependencies can be installed using following command: 
+```
+make install-dev
+```
+To run tests, please use the following command:
+```
+make test
+```
+
+### Updating dependencies
+Please don't update the `requirements.txt` file manualy.  
+In order to add/update dependency, please use `make freeze` command.
+
 
 **Crawler must:**
 

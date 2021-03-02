@@ -1,4 +1,4 @@
-from distutils.core import setup, find_packages
+from setuptools import setup, find_packages
 
 install_requires = [
     'bs4~=0.0.1',
@@ -18,7 +18,7 @@ setup(name='web-crawler',
     packages=find_packages(),
     install_requires=install_requires,
     setup_requires=['pytest-runner'],
-    extras_requires={
-        'dev': dev_requires,
+    extras_require={
+      'dev': dev_requires,
     },
 )
