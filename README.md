@@ -21,13 +21,14 @@ In order to add/update dependency, please use `make freeze` command.
     - [x] get page content
     - [x] get all links
     - [x] create page map
-- [ ] know which sub-pages are already mapped
+- [x] know which sub-pages are already mapped
 - [x] recognise external links and don't follow
     - [x] filter external links
 - [x] reconginse and ignore links to other entities like email
-- [ ] recognise sub-page link with absolute and relative page address
-- [ ] map each identified sub-page
+- [x] map each identified sub-page
 
 Improvements:
-- [ ] map each sub-page in new thread
+- [x] map each sub-page in new thread
+- [ ] recognise sub-page link with absolute and relative page address
 - [ ] match different protocols for the same page
+- [ ] add more tests

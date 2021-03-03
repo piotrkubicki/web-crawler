@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 install_requires = [
     'bs4~=0.0.1',
     'requests~=2.25.1',
+    'pyyaml~=5.4.1',
 ]
 dev_requires = [
     "pytest~=6.2.2",

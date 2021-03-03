@@ -2,3 +2,5 @@
 __pycache__
 .pytest*
 *.egg*
+*.log
+site_map/
