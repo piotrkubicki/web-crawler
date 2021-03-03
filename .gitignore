@@ -2,8 +2,5 @@
 __pycache__
 .pytest*
 *.egg*
-<<<<<<< HEAD
-=======
 *.log
 site_map/
->>>>>>> Map page
